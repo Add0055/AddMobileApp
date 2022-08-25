@@ -14,9 +14,9 @@ public class MainViewModel extends ViewModel {
     }
 
     public void setName() {
-        String name = "Adane";
+        String name = "Wendowsen";
         if (App.getInstance().getDataManager().getNameState())
-            name = "Tesfaye";
+            name = "Bekele";
         txtName.setValue(name);
     }
 
