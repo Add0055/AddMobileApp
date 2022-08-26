@@ -2,8 +2,8 @@ package com.example.bankapp;
 
 import android.app.Application;
 
-import com.example.bankapp.main.data.AppDataManager;
-import com.example.bankapp.main.data.DataManager;
+import com.example.bankapp.data.AppDataManager;
+import com.example.bankapp.data.DataManager;
 
 public class App extends Application {
 

@@ -15,14 +15,14 @@ public class MainViewModel extends ViewModel {
 
     public void setName() {
         String name = "Wendowsen";
-        if (App.getInstance().getDataManager().getNameState())
+        if (App.getInstance().getDataManager().getLogin())
             name = "Bekele";
         txtName.setValue(name);
     }
 
     public void onClickName() {
-        Boolean isFather = App.getInstance().getDataManager().getNameState();
-        App.getInstance().getDataManager().setNameState(!isFather);
+        Boolean isFather = App.getInstance().getDataManager().getLogin();
+        App.getInstance().getDataManager().setLogin(!isFather);
         setName();
     }
 }
