@@ -1,10 +1,10 @@
-package com.example.bankapp.main.data;
+package com.example.bankapp.data;
 
 import android.content.Context;
 
 import com.example.bankapp.framework.util.AppConstants;
-import com.example.bankapp.main.data.local.prefs.AppPreferences;
-import com.example.bankapp.main.data.local.prefs.AppPreferencesHelper;
+import com.example.bankapp.data.local.prefs.AppPreferences;
+import com.example.bankapp.data.local.prefs.AppPreferencesHelper;
 
 public class AppDataManager implements DataManager {
     private AppPreferencesHelper mPrefHelper;
@@ -14,13 +14,13 @@ public class AppDataManager implements DataManager {
     }
 
     @Override
-    public void setNameState(Boolean isFather) {
-      mPrefHelper.setNameState(isFather);
+    public void setLogin(Boolean isLogin) {
+      mPrefHelper.setLogin(isLogin);
     }
 
     @Override
-    public Boolean getNameState() {
-        return mPrefHelper.getNameState();
+    public Boolean getLogin() {
+        return mPrefHelper.getLogin();
     }
 
     @Override

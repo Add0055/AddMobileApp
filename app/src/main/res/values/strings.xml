@@ -6,4 +6,7 @@
     <string name="todo">image_of_logo</string>
     <string name="login">Login</string>
     <string name="go_to_login">go_to_login</string>
+    <string name="err_password">err_password</string>
+    <string name="err_usernsme">err_usernsme</string>
+    <string name="err_Login">err_Login</string>
 </resources>
